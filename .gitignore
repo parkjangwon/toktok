@@ -1,16 +1,28 @@
-# Android
-*.iml
+# Gradle
 .gradle/
-/local.properties
+build/
+app/build/
+
+# Android Studio
 .idea/
-.DS_Store
-/app/build/
-/build/
+*.iml
+*.iws
+*.ipr
+
+# Local configuration
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# APK/AAB (release via GitHub Releases)
 *.apk
 *.aab
 
-# Kotlin
-*.class
+# OS
+.DS_Store
+Thumbs.db
 
-# Log files
+# Logs
 *.log
