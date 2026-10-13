@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- One UI light theme tokens -->
+    <color name="oneui_primary">#0381FE</color>
+    <color name="oneui_primary_dark">#0072DE</color>
+    <color name="oneui_background">#FAFAFA</color>
+    <color name="oneui_surface">#FFFFFF</color>
+    <color name="oneui_on_surface">#000000</color>
+    <color name="oneui_on_surface_variant">#555555</color>
+
+    <style name="Theme.Toktok" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/oneui_primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/oneui_primary</item>
+        <item name="android:windowBackground">@color/oneui_background</item>
+        <item name="colorSurface">@color/oneui_surface</item>
+        <item name="colorOnSurface">@color/oneui_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/oneui_on_surface_variant</item>
+    </style>
+</resources>
