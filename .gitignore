@@ -1,0 +1,16 @@
+# Android
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+/app/build/
+/build/
+*.apk
+*.aab
+
+# Kotlin
+*.class
+
+# Log files
+*.log
